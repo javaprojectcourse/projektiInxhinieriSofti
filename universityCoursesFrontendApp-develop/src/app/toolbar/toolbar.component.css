@@ -1,0 +1,11 @@
+button{
+    cursor: pointer;
+  }
+  ::ng-deep .mat-toolbar{
+    z-index: 998;
+    position: sticky
+  }
+  .dark{
+    background-color: black !important;
+    color: white !important;
+  }
